@@ -1,0 +1,31 @@
+The following files will be found in this directory:
+
+Makefile		`make' description file for compiling the application
+README			this file
+flow.c			Analyzes and classifies the ECG signal using either wqrs or sqrs as R peak detector
+noiseremoval.c		Filters signal at 1-50Hz bandwidth
+svmpredict.c		Classifies a single heartbeat
+mysqrs.c		Detects R peaks using the sqrs R peak detector
+mywqrs.c		Detects R peaks using the wqrs R peak detector
+mydwt.c			Applies DWT on the heartbeat and extracts requested coefficients
+post_request.c		Sends diagnosis data to remote server
+svm.h			Functions and structures used by svmpredict.c are declared in this header file
+svm.cpp			Needed for svmpredict.c to be linked with 
+script.py		Script to run the application with different inputs
+configs			Folder containing configurations regarding the feature vector, signal interpolation and wavelet
+data_i			Folder containing ECG signals digitized at i samples per second
+models_i		Folder containing configurations regarding the svm models for signals digitized at i samples per second
+res_i 			Folder to store results for signals digitized at i samples per second
+wavelets		Folder containing the filters associated with different wavelets
+
+'flow' Usage: flow configs/config_i.txt confi_output1.txt confi_output2.txt data_i.txt model_config_i.txt
+
+configs/config_i.txt	is the feature vector, wavelet, interpolation and R peak detector configuration
+confi_output1.txt	is the stored output regarding the filtering and segmentation stage execution times
+confi_output2.txt	is the stored output regarding the feature extraction and classification stage execution times
+data_i.txt		is the inputed ECG signal
+model_config_i.txt	is the inputed svm model which corresponds to the feature vector configurations
+
+variable no_of_input_windows sets the number of signal frames read
+variable input_signal_window sets the window (3000 samples being the minimum when using wqrs) on which the analysis and classification is to be applied
+

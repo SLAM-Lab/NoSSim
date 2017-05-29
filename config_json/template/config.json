@@ -1,0 +1,30 @@
+{
+    "cli_num": 6,
+    "cli_core_num": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "protocol": 0,
+    "offloading": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+    ],
+    "srv_core_num": 1,
+    "srv_type": 1,
+    "cli_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ]
+}

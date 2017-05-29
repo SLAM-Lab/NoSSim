@@ -1,0 +1,438 @@
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkenv.cc#1658: out of stack space (infinite loop?)
+    while executing
+"graphmodwin_animate_on_conn .ptr0xaa1d948-2 ptr0xbad4138 ptr0xaa03c60 beg"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkenv.cc#1658: out of stack space (infinite loop?)
+    while executing
+"graphmodwin_animate_on_conn .ptr0xaa1d948-2 ptr0xbdaac30 ptr0xaa03c60 beg"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkenv.cc#1658: out of stack space (infinite loop?)
+    while executing
+"graphmodwin_animate_on_conn .ptr0xaa1d948-2 ptr0xc06d5b0 ptr0xaa03c60 beg"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+Tcl error: tkutil.cc#273: out of stack space (infinite loop?)
+    while executing
+".main.text insert end {App doing work
+} {log}"
+
+
+Tcl error: tkutil.cc#278: out of stack space (infinite loop?)
+    while executing
+".main.text see end"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#756: ptr0x3e1adf0 not found
+    while executing
+"error "$tag not found""
+    (procedure "get_submod_coords" line 4)
+    invoked from within
+"get_submod_coords $c $modptr"
+    (procedure "graphmodwin_draw_nexteventmarker" line 2)
+    invoked from within
+"graphmodwin_draw_nexteventmarker .ptr0x3e1a710-2.c ptr0x3e1adf0 1"
+
+
+Tcl error: modinsp.cc#756: ptr0x3e293a0 not found
+    while executing
+"error "$tag not found""
+    (procedure "get_submod_coords" line 4)
+    invoked from within
+"get_submod_coords $c $modptr"
+    (procedure "graphmodwin_draw_nexteventmarker" line 2)
+    invoked from within
+"graphmodwin_draw_nexteventmarker .ptr0x3e1a710-2.c ptr0x3e293a0 1"
+
+
+Tcl error: modinsp.cc#756: ptr0x3e293a0 not found
+    while executing
+"error "$tag not found""
+    (procedure "get_submod_coords" line 4)
+    invoked from within
+"get_submod_coords $c $modptr"
+    (procedure "graphmodwin_draw_nexteventmarker" line 2)
+    invoked from within
+"graphmodwin_draw_nexteventmarker .ptr0x3e1a710-2.c ptr0x3e293a0 1"
+
+
+Tcl error: modinsp.cc#756: ptr0x3e293a0 not found
+    while executing
+"error "$tag not found""
+    (procedure "get_submod_coords" line 4)
+    invoked from within
+"get_submod_coords $c $modptr"
+    (procedure "graphmodwin_draw_nexteventmarker" line 2)
+    invoked from within
+"graphmodwin_draw_nexteventmarker .ptr0x3e1a710-2.c ptr0x3e293a0 1"
+
+

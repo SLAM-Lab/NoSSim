@@ -1,0 +1,6 @@
+# Add SystemC support library
+TOP_DIR = ../../../NoS
+MODEL_DIR = $(TOP_DIR)/NoS_Vgraph
+OCV_TOP=$(MODEL_DIR)/opencv
+lib_wo_prof=$(OCV_TOP)/lib
+LIBS += -llwipapps -llwip4 -lhelper -loppsystemc$D -lhcsim -rdynamic   ${lib_wo_prof}/libopencv_xfeatures2d.a ${lib_wo_prof}/libopencv_features2d.a ${lib_wo_prof}/libopencv_imgcodecs.a ${lib_wo_prof}/libopencv_imgproc.a  ${lib_wo_prof}/libopencv_calib3d.a ${lib_wo_prof}/libopencv_core.a  ${lib_wo_prof}/libopencv_highgui.a   ${lib_wo_prof}/libopencv_flann.a ${lib_wo_prof}/libopencv_video.a ${lib_wo_prof}/libopencv_videoio.a ${lib_wo_prof}/libopencv_shape.a ${lib_wo_prof}/libopencv_ml.a ${OCV_TOP}/share/OpenCV/3rdparty/lib/libIlmImf.a ${OCV_TOP}/share/OpenCV/3rdparty/lib/libippicv.a ${OCV_TOP}/share/OpenCV/3rdparty/lib/liblibtiff.a ${OCV_TOP}/share/OpenCV/3rdparty/lib/liblibjasper.a ${OCV_TOP}/share/OpenCV/3rdparty/lib/liblibwebp.a -ljpeg -lpng -lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0 -lgthread-2.0 -lgstbase-0.10 -lgstreamer-0.10 -lgmodule-2.0 -lxml2 -lgobject-2.0 -lglib-2.0 -lgthread-2.0 -lgstbase-0.10 -lgstreamer-0.10 -lgmodule-2.0 -lxml2 

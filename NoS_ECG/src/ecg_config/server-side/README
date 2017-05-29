@@ -1,0 +1,3 @@
+display_posted_data.php	:
+
+Handles data sent by post request by inserting them into a database and displaying its content. The database is called MedicalRecord and has two fields, heartbeats(AI) and diagnosis.

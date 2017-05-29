@@ -1,0 +1,15 @@
+coefficients
+1
+1
+0
+1
+0
+0
+0
+0
+interpolation
+2
+wavelet
+32
+R peak detector
+sqrs_detector

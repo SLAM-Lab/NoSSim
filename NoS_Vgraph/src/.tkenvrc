@@ -1,0 +1,3 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Throughput" "Throughput" "2" "607x341+-9+250:normal"
+

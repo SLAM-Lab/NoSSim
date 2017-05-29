@@ -1,0 +1,4 @@
+# Add SystemC support library
+LIBS += -lecg -llwipapps -llwip4 -lhelper -loppsystemc$D -lhcsim -lrt
+COPTS += -Wno-unused
+# -lrt enables real time library 
