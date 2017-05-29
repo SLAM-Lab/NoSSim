@@ -56,10 +56,10 @@ Build requirements:
 Configuration of the package is done by manually editing the Makefile. The
 following macros need to be adjusted to point to the locations of the
 pre-installed packages listed above:
-  HCSIM_DIR -- Host-compiled SystemC simulator
-  OMNET_DIR -- OMNEST/OMNeT++ including SystemC integration
+  - HCSIM_DIR -- Host-compiled SystemC simulator
+  - OMNET_DIR -- OMNEST/OMNeT++ including SystemC integration
                (default is the $omnetpp_root environment variable)
-  INET_DIR  -- INET framework
+  - INET_DIR  -- INET framework
 
 
 Running:
@@ -72,24 +72,24 @@ all the library pathes variables in the application Makefile
 
 To build each example locally, change into the corresponding example
 directory and run:
-  % cd <example>
-  % make 
+  - % cd <example>
+  - % make 
 
 Then to run an example locally:
-  % cd <example>
-  % make test
+  - % cd <example>
+  - % make test
 
 
 In all cases, <example> can be one of:
-  NoS_ECG
-  NoS_Vgraph
+  - NoS_ECG
+  - NoS_Vgraph
 
 
 References:
 -----------
-[1] Z. Zhao, V. Tsoutsouras, D. Soudris and A. Gerstlauer, "Network/System 
+- [1] Z. Zhao, V. Tsoutsouras, D. Soudris and A. Gerstlauer, "Network/System 
     Co-Simulation for Design Space Exploration of IoT Applications," SAMOS, July 2017.
-[2] P. Razaghi, A. Gerstlauer, "Host-Compiled Multi-Core System Simulation
+- [2] P. Razaghi, A. Gerstlauer, "Host-Compiled Multi-Core System Simulation
     for Early Real-Time Performance Evaluation," ACM Transactions on Embedded
     Computer Systems, 2014.
 
