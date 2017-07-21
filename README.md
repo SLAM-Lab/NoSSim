@@ -1,6 +1,6 @@
 # NoSSim
-Network/System Co-Simulation Platform
-=========================================
+Network-of-Systems Simulator
+============================
 
 This folder contains the prototype for a network/system co-simulation approach
 that combines a host-compiled SystemC simulation of device-internal SoC 
