@@ -49,11 +49,12 @@ Build requirements:
 
 Preparation before build:
   - For setting up HCSim (included as a submodule), please see [here](https://github.com/SLAM-Lab/HCSim)
-  - Apply the inet patch (inet_extra) and rebuild INET framework
+  - Apply the INET patch (inet_extra) and rebuild INET framework
 
 Preparation before running the example:
   - Set the OMNeT++ path
-     -- % pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
+
+  ... % pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
   - Set the INET path by changing the INET_DIR in [Makefile](https://github.com/SLAM-Lab/NoSSim/blob/master/examples/ecg_diagnosis/Makefile) for each application
 
 
