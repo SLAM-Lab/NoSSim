@@ -53,8 +53,9 @@ Preparation before build:
 
 Preparation before running the example:
   - Set the OMNeT++ path
-
-  ... % pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
+```bash
+  pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
+```
   - Set the INET path by changing the INET_DIR in [Makefile](https://github.com/SLAM-Lab/NoSSim/blob/master/examples/ecg_diagnosis/Makefile) for each application
 
 
@@ -67,15 +68,17 @@ this repository, we include [profile data for different platforms](https://githu
 
 To build an example, change into the corresponding example
 directory and run:
-  - % cd examples/vision_graph
-  - % make dependency
-  - % make makefiles
-  - % make
-
+```bash
+  cd examples/vision_graph
+  make dependency
+  make makefiles
+  make
+```
 To run an example, you may want to first change [the application](https://github.com/SLAM-Lab/NoSSim/blob/master/examples/vision_graph/src/sim_config.json), [system](https://github.com/SLAM-Lab/NoSSim/blob/master/examples/vision_graph/src/Cluster.ned) and [network](https://github.com/SLAM-Lab/NoSSim/blob/master/examples/vision_graph/src/omnetpp.ini) configration files based on your choice, then run:
-  - % cd examples/ecg_diagnosis
-  - % make test
-
+```bash
+   cd examples/ecg_diagnosis
+   make test
+```
 
 
 
