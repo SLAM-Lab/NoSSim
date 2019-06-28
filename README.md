@@ -15,27 +15,27 @@ IoT scenarios:
 ------------------
 ```
   examples/vision_graph       -- Vision graph discovery, where the relative position and 
-		      orientation among a network of smart cameras are estimated
+		                 orientation among a network of smart cameras are estimated
 		      
-  examples/ecg_diagnosis          -- ECG monitoring, where raw ECG signals are used to 
-		      detect heart arrhythmia
+  examples/ecg_diagnosis      -- ECG monitoring, where raw ECG signals are used to 
+		                 detect heart arrhythmia
 ```
 
 Directories:
 ------------
 ```
-  json/             -- JSON lib and configuration file template
-  InstrumentLLVM/   -- LLVM function-level instrumentation pass, shared library for profiling and back-annotation
-  lwip-hcsim/       -- lwIP stacks ported on SystemC-based OS model (HCSim)
-  examples/vision_graph/       -- The vision graph discovery example
-     ezSIFT/          - The SIFT (scale-invariant feature transform) algorithm library
-     networking_api/  - Networking APIs and runtime libraries (based on lwip and HCSim) 
-     src/             - Source code for application, system and network models
+  json/                      -- JSON lib and configuration file template
+  InstrumentLLVM/            -- LLVM function-level instrumentation pass, shared library for profiling and back-annotation
+  lwip-hcsim/                -- lwIP stacks ported on SystemC-based OS model (HCSim)
+  examples/vision_graph/     -- The vision graph discovery example
+     ezSIFT/                     - The SIFT (scale-invariant feature transform) algorithm library
+     networking_api/             - Networking APIs and runtime libraries (based on lwip and HCSim) 
+     src/                        - Source code for application, system and network models
 
-  examples/ecg_diagnosis/          -- The ECG monitoring example
-     ecg/     	      - ECG diagnosis library
-     networking_api/  - Networking APIs and runtime libraries (based on lwip and HCSim) 
-     src/             - Source code for application, system and network models
+  examples/ecg_diagnosis/    -- The ECG monitoring example
+     ecg/     	                 - ECG diagnosis library
+     networking_api/             - Networking APIs and runtime libraries (based on lwip and HCSim) 
+     src/                        - Source code for application, system and network models
 ```
 
 Building and installing:
