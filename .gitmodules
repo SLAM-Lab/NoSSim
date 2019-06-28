@@ -1,0 +1,6 @@
+[submodule "HCSim"]
+	path = HCSim
+	url = https://github.com/zoranzhao/HCSim
+[submodule "lwip-hcsim"]
+	path = lwip-hcsim
+	url = https://github.com/zoranzhao/lwip-hcsim
