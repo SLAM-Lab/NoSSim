@@ -1,0 +1,3 @@
+package NoS;
+
+@namespace(inet);

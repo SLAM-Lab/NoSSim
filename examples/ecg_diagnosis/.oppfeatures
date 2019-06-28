@@ -1,0 +1,19 @@
+<features cppSourceRoots="src">
+    <feature
+        id="Ethernet"
+        name="Ethernet"
+        description = "IEEE 802.3 models (MAC, LLC, Encap) with support for classic
+                       Ethernet (10Mbps), Fast Ethernet (100Mbps) and Gigabit Ethernet (1Gbps).
+                       Includes a switch model with various relay unit implementations,
+                       and also Ethernet-level traffic generators."
+        initiallyEnabled = "true"
+        requires = ""
+        labels = "protocols"
+        nedPackages = "
+                       NoS.applications.ethernet
+                      "
+        extraSourceFolders = ""
+        compileFlags = "-DWITH_ETHERNET"
+        linkerFlags = ""
+        />
+</features>

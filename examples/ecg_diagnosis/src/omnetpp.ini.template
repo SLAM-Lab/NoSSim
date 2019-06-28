@@ -1,0 +1,31 @@
+[General]
+network = Cluster
+scheduler-class = SC_Scheduler
+**.cmdenv-log-level = off
+
+**.constraintAreaMinX = 0m
+**.constraintAreaMinY = 0m
+**.constraintAreaMaxX = 20m
+**.constraintAreaMaxY = 20m
+**.constraintAreaMinZ = 0m
+**.constraintAreaMaxZ = 0m
+
+# positions
+**.mobility.initFromDisplayString = false
+
+# energy settings
+**.cliHost[*].wlan.radio.energyConsumer.offPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.sleepPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.switchingPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumerType = "StateBasedEnergyConsumer"
+**.energyStorageType = "IdealEnergyStorage"
+
+# nic settings
+
+# phy settings
+
+
+# number of edges
+
+
+

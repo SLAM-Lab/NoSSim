@@ -1,0 +1,18 @@
+#
+# pkg-config:
+#
+HAVE_PKGCFG := $(shell pkg-config --version 2>/dev/null)
+ifeq ($(strip $(HAVE_PKGCFG)),)
+  HAVE_PKGCFG := no
+else
+  HAVE_PKGCFG := yes
+  PKGCFG := $(shell which pkg-config)
+endif
+
+# uncomment this if you want to run the NS3 vs INET 802.11 cross validation tests in the 'tests/misc/ns3' folder.
+# CFLAGS += -DNS3_VALIDATION
+
+# disable anoying "... hides overloaded virtual function" warning
+CFLAGS += -Wno-overloaded-virtual -g
+
+LIBS += -lvgraph -ldistriot -llwipapps -llwip4 -loppsystemc$D -lhcsim -lrt

@@ -1,0 +1,87 @@
+[General]
+network = Cluster
+scheduler-class = SC_Scheduler
+**.cmdenv-log-level = off
+#cmdenv-output-file = omnetpp.log
+#debug-on-errors = true
+#tkenv-plugin-path = ../../../etc/plugins
+#record-eventlog = true
+
+**.constraintAreaMinX = 0m
+**.constraintAreaMinY = 0m
+**.constraintAreaMaxX = 20m
+**.constraintAreaMaxY = 20m
+**.constraintAreaMinZ = 0m
+**.constraintAreaMaxZ = 0m
+
+
+# positions
+**.mobility.initFromDisplayString = false
+
+**.cliHost[*].wlan.radio.energyConsumerType = "StateBasedEnergyConsumer"
+**.cliHost[*].wlan.radio.energyConsumer.offPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.sleepPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.switchingPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.receiverIdlePowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.receiverBusyPowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.receiverReceivingPowerConsumption = 120mW
+**.cliHost[*].wlan.radio.energyConsumer transmitterIdlePowerConsumption = 0mW
+**.cliHost[*].wlan.radio.energyConsumer.transmitterTransmittingPowerConsumption = 600mW
+**.energyStorageType = "IdealEnergyStorage"
+
+
+**.cliHost[0].wlan.mac.address = "00:01:00:00:00:00"
+**.cliHost[1].wlan.mac.address = "00:02:00:00:00:00"
+**.cliHost[2].wlan.mac.address = "00:03:00:00:00:00"
+**.cliHost[3].wlan.mac.address = "00:04:00:00:00:00"
+**.cliHost[4].wlan.mac.address = "00:05:00:00:00:00"
+**.cliHost[5].wlan.mac.address = "00:06:00:00:00:00"
+**.cliHost[6].wlan.mac.address = "00:07:00:00:00:00"
+
+**.cliHost[7].wlan.mac.address = "00:08:00:00:00:00"
+
+
+# nic settings
+# nic settings
+#**.wlan[*].mac.slotTime = 10us
+#**.wlan.mac.slotTime = 10us
+
+# access point
+**.ap.wlan[*].mac.address = "00:10:00:00:00:00"
+**.mgmt.accessPointAddress = "00:10:00:00:00:00"
+
+#802.11g: 6, 9, 12, 18, 24, 36, 48, 54
+#802.11b: 1, 2, 5.5, 11 
+
+**.opMode = "n"
+**.bitrate = 600Mbps
+**.basicBitrate = 600Mbps
+**.controlBitrate = 600Mbps
+**.errorModelType = ""
+**.numAntennas = 4
+
+#**.opMode="g"
+#**.bitrate = 54Mbps
+#**.basicBitrate=54Mbps
+#**.controlBitrate=54Mbps
+#**.errorModelType = ""
+#**.numAntennas = 4
+
+
+**.mac.EDCA = true
+**.mac.maxQueueSize = 100000
+**.mac.rtsThresholdBytes = 2346B
+**.mac.retryLimit = 7
+**.mac.cwMinData = 31
+**.mac.cwMinBroadcast = 31
+
+**.radio.transmitter.power = 200mW
+**.radio.transmitter.headerBitLength = 100b
+**.radio.transmitter.carrierFrequency = 2.4GHz
+**.radio.transmitter.bandwidth = 40MHz
+**.radio.receiver.bandwidth = 40MHz
+**.radio.receiver.sensitivity = -85dBm
+**.radio.receiver.snirThreshold = 4dB
+
+Cluster.numCli = 7
+

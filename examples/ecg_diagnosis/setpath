@@ -1,0 +1,4 @@
+#! /bin/sh
+#export PATH=/home/local//omnetpp-5.0/bin:$PATH
+pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
+

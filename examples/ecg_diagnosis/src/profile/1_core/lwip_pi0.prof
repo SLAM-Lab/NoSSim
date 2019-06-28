@@ -1,0 +1,11 @@
+name_of_function	input1	input2	input3	calling#	avg_time_usec 
+tcp_input	0	0	0	566	28.3768 
+tcp_write	0	0	0	224	16.0300 
+sys_timeouts_mbox_fetch	0	0	0	918	125.0015 
+netconn_connect	0	0	0	1	49.102 
+netconn_accept	0	0	0	2	41.9435 
+netconn_recv	0	0	0	337	80.7567 
+lwip_netconn_do_connect	0	0	0	1	81.22 
+etharp_output	0	0	0	566	78.8658
+etharp_request	0	0	0	1	201.569 
+ethip6_output	0	0	0	566	76.8478

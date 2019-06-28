@@ -36,25 +36,20 @@
 #include "llvm/Transforms/Instrumentation.h"
 
 
-#include <iostream>
 #include <fstream>
-#include <cstdio>
-#include <cstdlib> 
 #include <sstream>
-#include <string>
-
 
 
 #ifndef PROFILERECORDER__H 
 #define PROFILERECORDER__H 
 
-//#define MIN_GRANU 50000
-
+using namespace llvm;
+using namespace std;
 
 typedef struct FuncProfileData {
   long long TotalBBs;
   long CallingTimes;
-  long long TotalCycles;
+  double TotalCycles;
 } FuncProfData;
 
 
@@ -68,33 +63,30 @@ extern ProfData LibProfData[20];
 
 
 void LoadProf(){
-    std::ifstream infile("ProfileData");
-    std::string line;
-    int ii;
-    int jj;
-    for(ii=0;ii<20;ii++){
-        for(jj=0;jj<10000;jj++){
-                LibProfData[ii].Funcs[jj].CallingTimes=0;
-                LibProfData[ii].Funcs[jj].TotalCycles=0;
-                LibProfData[ii].Funcs[jj].TotalBBs=0;
-        }
-    }
+   std::ifstream infile("function_time.prof");
+   std::string line;
+   int ii, jj;
+   for(ii=0;ii<20;ii++){
+      for(jj=0;jj<10000;jj++){
+         LibProfData[ii].Funcs[jj].CallingTimes=0;
+         LibProfData[ii].Funcs[jj].TotalCycles=0;
+         LibProfData[ii].Funcs[jj].TotalBBs=0;
+      }
+   }
 
-    while (std::getline(infile, line))
-    {
-        std::istringstream iss(line);
-        int lib, func;
-        long CallTimes;
-        long long  Cycles;
-        if (!(iss >> lib >> func >> CallTimes >> Cycles)) { break; } // error
-        //printf("%d %d %f\n",  lib, func, ((Cycles)/((double)CallTimes)));
-        LibProfData[lib].Funcs[func].CallingTimes=(CallTimes);
-        LibProfData[lib].Funcs[func].TotalCycles=(long long)(((double)(Cycles))/((double)CallTimes));
-    }
+   while (std::getline(infile, line)){
+      std::istringstream iss(line);
+      int lib, func;
+      long CallTimes;
+      double Cycles;
+      if (!(iss >> lib >> func >> CallTimes >> Cycles)) { break; }
+      errs() << lib << " " << func << " " << CallTimes << " " << Cycles <<"\n";
+      LibProfData[lib].Funcs[func].CallingTimes = CallTimes;
+      LibProfData[lib].Funcs[func].TotalCycles = Cycles;
+   }
 }                     
 
 
 
-
-
 #endif // PROFILERECORDER__H 
+
