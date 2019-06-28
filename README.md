@@ -52,7 +52,7 @@ Preparation before build:
   - Apply the INET patch (inet_extra) and rebuild INET framework
 
 Preparation before running the example:
-  - Set the OMNeT++ path
+  - Set the OMNeT++ path:
 ```bash
   pushd /home/slam/OMNET/omnetpp-5.0; . setenv; popd
 ```
